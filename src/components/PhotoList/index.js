@@ -101,8 +101,6 @@ const PhotoList = ({ category }) => {
     ]);
 
     const currentPhotos = photos.filter((photo) => photo.category === category);
-    console.log('category = ' + category);
-    console.log('currentPhotos.length = ' + currentPhotos.length);
     return (
         <div>
             <div className="flex-row">
